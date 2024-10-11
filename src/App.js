@@ -247,8 +247,8 @@ function App() {
       </div>
 
      {/* Right Side: Image Grid */}
-<div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xs sm:max-w-sm lg:max-w-lg">
+     <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
+  <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 max-w-xs sm:max-w-sm lg:max-w-lg">
     {/* First Image */}
     <div className="bg-purple-100 p-4 rounded-lg shadow-lg flex items-center justify-center">
       <img
@@ -266,14 +266,14 @@ function App() {
       />
     </div>
     {/* Third Image (Spanning across two columns) */}
-    <div className="bg-purple-100 p-4 rounded-lg shadow-lg flex items-center justify-center sm:col-span-2 sm:row-span-2">
+    <div className="bg-purple-100 p-4 rounded-lg shadow-lg flex items-center justify-center col-span-2 row-span-2">
       <img
         src="Exited.jpg"
         alt="Excited person"
         className="w-full h-auto object-cover rounded-lg"
       />
     </div>
-  </div>
+  </div>
 </div>
 
     </section>
