@@ -227,7 +227,7 @@ function App() {
           from the respective owners provided below before using these icons in
           designs.
         </p>
-        <button className="bg-purple-600 text-white px-6 py-3 4 rounded-md text-sm sm:text-base font-medium hover:bg-purple-700 transition mb-4 sm:mb-0">
+        <button className="bg-purple-600 text-white px-6 py-3 4 rounded-md text-sm sm:text-base font-medium hover:bg-purple-700 transition mb-4 sm:mb-2">
           Learn More
         </button>
       </div>
