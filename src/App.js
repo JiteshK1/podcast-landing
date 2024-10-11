@@ -153,26 +153,26 @@ function App() {
         </div>
       </section>
 
-      {/* Supported Platforms */}
-      <section className="flex justify-center space-x-6 py-10 bg-white">
-      <span className="mr-4">Supported by:</span>
-      <div className="flex items-center space-x-2">
-        <img src="spotify.png" alt="Spotify" className="h-8 w-auto" />
-        <span>Spotify</span>
-      </div>
-      <div className="flex items-center space-x-2">
-        <img src="pdcast.png" alt="Google Podcasts" className="h-8 w-auto" />
-        <span>Google Podcasts</span>
-      </div>
-      <div className="flex items-center space-x-2">
-        <img src="youtube.jpg" alt="YouTube" className="h-8 w-auto" />
-        <span>YouTube</span>
-      </div>
-      <div className="flex items-center space-x-2">
-        <img src="slack.png" alt="Slack" className="h-8 w-auto" />
-        <span>Slack</span>
-      </div>
-    </section>
+    {/* Supported Platforms */}
+<section className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 py-10 bg-white">
+  <span className="mr-4">Supported by:</span>
+  <div className="flex items-center space-x-2">
+    <img src="spotify.png" alt="Spotify" className="h-8 w-auto" />
+    <span>Spotify</span>
+  </div>
+  <div className="flex items-center space-x-2">
+    <img src="pdcast.png" alt="Google Podcasts" className="h-8 w-auto" />
+    <span>Google Podcasts</span>
+  </div>
+  <div className="flex items-center space-x-2">
+    <img src="youtube.jpg" alt="YouTube" className="h-8 w-auto" />
+    <span>YouTube</span>
+  </div>
+  <div className="flex items-center space-x-2">
+    <img src="slack.png" alt="Slack" className="h-8 w-auto" />
+    <span>Slack</span>
+  </div>
+</section>
 
       
       {/* New Section: Discover Your Favorite Podcasts */}
