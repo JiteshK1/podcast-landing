@@ -210,7 +210,7 @@ function App() {
       {/* Left Side: Image */}
       <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
         <img
-          src="meeting.jpg"
+          src="man2.jpg"
           alt="Record your own voice"
           className="rounded-lg shadow-lg w-3/4 lg:w-full"
         />
@@ -273,10 +273,11 @@ function App() {
         className="w-full h-auto object-cover rounded-lg"
       />
     </div>
-  </div>
+</div>
 </div>
 
     </section>
+    
     </div>
   );
 }
